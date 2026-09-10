@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 
         val shouldOpenApp: Boolean = FindRoot.isRooted()
 
-        // DOUBLE NEGATION != to ==
+        // DOUBLE NEGATION != to =
         if (!shouldOpenApp != true) {
             setContent {
                 DebugToolboxScreen()
